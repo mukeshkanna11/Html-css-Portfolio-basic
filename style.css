@@ -1,0 +1,351 @@
+@import url(https://fonts.google.com/?query=popp);
+
+
+
+
+.nav{
+    width: 100%;
+    height: 45px;
+    padding-top: 22.5px;
+    text-align:right ;
+    position:fixed; 
+    top: 0%; 
+    left: 0;
+    background-color:lightyellow; /* Background color of the sidebar */
+    opacity:10px;
+    word-spacing: -20px;
+    font-size:18px;
+    font-weight: 600;
+    margin-right: 10px;
+    
+    
+}
+
+.logo{
+    margin-top: -3;
+    margin-left: -3;
+}
+.nav a {
+    margin-right: 0; /* Ensure no extra margin on the right side */
+    padding-right: 70px; /* Adjust this value for spacing between links */
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+
+.nav a:hover{
+    color: maroon;
+}
+
+h3{
+    margin-top: 100px;
+    text-align: left; /* Center-aligns the h1 text */
+    font-size: 20px; /* Sets the font size of the h1 */
+    color: #333; /* Sets the color of the h1 text */
+}
+
+
+h1{
+    margin-top: 20px;
+    color:maroon;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    font-size: 35px;
+    
+}
+
+body{
+    background-color: lemonchiffon;
+    font-family:Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image:url("bg.jpeg") */
+    
+     
+}
+
+p{
+color: black;
+width: 700px; /* Adjust this width to control the line break */
+    font-size: 24px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+
+h4{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners */
+    cursor:pointer; /* Pointer cursor on hover */
+    font-size: 15px; /* Font size */
+    font-weight:bold; 
+    background-color:lemonchiffon;/* Bold text */
+    transition: .3s;
+    
+}
+
+.btn1{
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners */
+    cursor:pointer; 
+    font-size: 15px; /* Font size */
+    font-weight:bold; 
+    background-color:lemonchiffon;
+    padding-left: 20px;
+    margin-left: 20px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    
+}
+
+.btn1 a:hover{
+    color: blue;
+}
+
+
+h1,h3,h4,p , button {
+    margin-left: 100px;
+}
+
+.social-media{
+    margin-top: 20px;
+    margin-left: 100px;
+    word-spacing: 15px;
+    font-size: 24px;
+    color: black;
+}
+
+
+.social-media a{
+text-decoration: none;
+color: inherit;
+}
+ 
+
+.skill{
+    color:maroon;
+    text-align:center;
+    margin-left: 50%;
+    margin-top: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.para-skill{
+    font-size:24px;
+    word-spacing: normal;
+    margin-left: 40%;
+    margin-right: 50%;
+    margin-top: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.skills-box {
+     /* Darker box background */
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Border with slight transparency */
+    box-shadow: 0 0 10px maroon; /* Glowing effect */
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 150px;
+    margin-left:0%;
+    text-align:center;
+}
+
+.skills-box h3 {
+    margin-bottom: 20px;
+    color:maroon;
+    margin-top: auto;
+    text-align: center;
+    margin-left: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.skills-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.skill-item img {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+.skill-item span {
+    font-size: 14px;
+    color: black /* Slightly lighter text color */
+    
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+.right-box{
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Border with slight transparency */
+    box-shadow: 0 0 10px maroon; /* Glowing effect */
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 150px;
+    margin-left:800px;
+    text-align:center;
+   margin-top: -162px;
+    
+}
+
+.right-box h3{
+    margin-bottom: 20px;
+    color:maroon;
+    margin-top: auto;
+    text-align: center;
+    margin-left:5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.skills-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-item{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.skill-item img{
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+.skill-item span{
+    font-size: 14px;
+    color: black /* Slightly lighter text color */
+}
+
+/* .Frontend , .Backend{
+    justify-content: space-between;
+} */
+
+.third-box{
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Border with slight transparency */
+    box-shadow: 0 0 10px maroon; /* Glowing effect */
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left:-10px;
+    text-align:center;
+   margin-bottom: -200px;
+}
+.skills-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-item{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.skill-item img{
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+.skill-item span{
+    font-size: 14px;
+    color: black /* Slightly lighter text color */}
+
+
+.fourth-box{
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Border with slight transparency */
+    box-shadow: 0 0 10px maroon; /* Glowing effect */
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 150px;
+    margin-left:800px;
+    text-align:center;
+   margin-top: -150px;
+}
+
+.pro-section
+{
+    margin-top: 70px;
+}
+
+
+.Description{
+    text-align: left;
+    margin-left: -350px;
+    width: auto;
+}
+
+.responsive-image{
+    width: 700px;
+    height: 350px;
+    
+}
+
+.Photo2{
+    margin-top: -1420px;
+    width:600 px;height: 400px;
+    margin-left: -500px;
+
+}
+
+.Photo3{
+    width:600 px;height: 400px;
+    margin-top: -420px;
+}
+
+.footer{
+   
+  color: #fff; /* White text color */
+  text-align:center; /* Center the text */
+  margin-left: 10%;
+  font-size: 5px;
+  font-weight: 100;
+  
+}
+
+.Contact{
+    color: blue ;
+    font-weight: 400;
+     text-align: left;
+     margin-left: -0px;
+     cursor: pointer;
+}
